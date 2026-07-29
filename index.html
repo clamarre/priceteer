@@ -8,6 +8,7 @@
       content="Priceteer is a browser extension in development that helps shoppers compare retailer prices in one clear view."
     />
     <meta name="theme-color" content="#1e4b37" />
+    <link rel="icon" type="image/png" href="priceteer-hat-mark.png" />
     <title>Priceteer — Compare prices with confidence</title>
     <style>
       :root {
@@ -74,16 +75,10 @@
       }
 
       .brand-mark {
-        width: 34px;
+        width: 44px;
         height: 34px;
-        display: grid;
-        place-items: center;
-        border-radius: 9px 9px 9px 3px;
-        background: var(--green);
-        color: white;
-        font-family: Georgia, serif;
-        font-size: 22px;
-        font-style: italic;
+        display: block;
+        object-fit: contain;
       }
 
       nav {
@@ -293,15 +288,10 @@
       }
 
       .mini-mark {
-        width: 22px;
+        width: 29px;
         height: 22px;
-        display: grid;
-        place-items: center;
-        border-radius: 6px 6px 6px 2px;
-        background: var(--green);
-        color: white;
-        font-family: Georgia, serif;
-        font-style: italic;
+        display: block;
+        object-fit: contain;
       }
 
       .preview-label {
@@ -946,7 +936,12 @@
     <main>
       <header class="site-header">
         <a class="brand" href="#top" aria-label="Priceteer home">
-          <span class="brand-mark" aria-hidden="true">P</span>
+          <img
+            class="brand-mark"
+            src="priceteer-hat-mark.png"
+            alt=""
+            aria-hidden="true"
+          />
           <span>Priceteer</span>
         </a>
         <nav aria-label="Main navigation">
@@ -986,7 +981,12 @@
           <div class="preview-card">
             <div class="preview-topbar">
               <div class="mini-brand">
-                <span class="mini-mark">P</span>
+                <img
+                  class="mini-mark"
+                  src="priceteer-hat-mark.png"
+                  alt=""
+                  aria-hidden="true"
+                />
                 Priceteer
               </div>
               <span class="preview-label">Illustrative preview</span>
@@ -1179,7 +1179,12 @@
 
       <footer id="contact">
         <a class="brand footer-brand" href="#top">
-          <span class="brand-mark" aria-hidden="true">P</span>
+          <img
+            class="brand-mark"
+            src="priceteer-hat-mark.png"
+            alt=""
+            aria-hidden="true"
+          />
           <span>Priceteer</span>
         </a>
         <p>
